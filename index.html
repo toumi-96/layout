@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>docplanner</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+           <img src="https://www.docplanner.com/img/logo-default-group-en.svg?v=1">
+            <nav>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Departments</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+            <img src="https://www.docplanner.com/img/sygnet.png">
+            <br/<br>
+            <h2>Making the healthcare experience more human</h2>
+            </div>
+        </main>
+        <section class="dvd">
+            <div >
+                We want patients to find the perfect doctor and book an appointment in the most easy way. The patient journey should be enjoyable, and that's why we are always next to them: to help them find the best possible care. Anytime, anywhere.
+
+            </div>
+            <div>
+                We also help doctors to better manage their practice and build their online reputation. With our integrated end-to-end solution, doctors are able not only to improve their online presence, but also to devote their time to what really matters: their patients.
+            </div>    
+        </section>
+        <br/br>
+        <section class="carré">
+        <div classe="green">
+            <img src="https://www.docplanner.com/icons/icon-patients.svg">
+            <width="16" height="16" alt>
+            <h1>
+                For patients
+            </h1>
+            <h2>
+                Find a doctor, book a visit and solve any health-related doubt
+            </h2>
+            <h3>
+                <select name="country" class="form-control" id="country">
+                    <option value="0" label="Select a country ... " selected="selected">Select a country ... </option>
+                    <optgroup id="country-optgroup-Africa" label="Africa">
+                        <option value="DZ" label="Algeria">Algeria</option>
+                        <option value="AO" label="Angola">Angola</option>
+                        <option value="BJ" label="Benin">Benin</option>
+                        <option value="BW" label="Botswana">Botswana</option>
+                        <option value="BF" label="Burkina Faso">Burkina Faso</option>
+                        <option value="BI" label="Burundi">Burundi</option>
+                        <option value="CM" label="Cameroon">Cameroon</option>
+                        <option value="CV" label="Cape Verde">Cape Verde</option>
+                        <option value="CF" label="Central African Republic">Central African Republic</option>
+                        <option value="TD" label="Chad">Chad</option>
+                        <option value="KM" label="Comoros">Comoros</option>
+                        <option value="CG" label="Congo - Brazzaville">Congo - Brazzaville</option>
+                        <option value="CD" label="Congo - Kinshasa">Congo - Kinshasa</option>
+                        <option value="CI" label="Côte d’Ivoire">Côte d’Ivoire</option>
+                        <option value="DJ" label="Djibouti">Djibouti</option>
+                        <option value="EG" label="Egypt">Egypt</option>
+                        <option value="GQ" label="Equatorial Guinea">Equatorial Guinea</option>
+                        <option value="ER" label="Eritrea">Eritrea</option>
+                        <option value="ET" label="Ethiopia">Ethiopia</option>
+                        <option value="GA" label="Gabon">Gabon</option>
+                        <option value="GM" label="Gambia">Gambia</option>
+                        <option value="GH" label="Ghana">Ghana</option>
+                        <option value="GN" label="Guinea">Guinea</option>
+                        <option value="GW" label="Guinea-Bissau">Guinea-Bissau</option>
+                        <option value="KE" label="Kenya">Kenya</option>
+                        <option value="LS" label="Lesotho">Lesotho</option>
+                        <option value="LR" label="Liberia">Liberia</option>
+                        <option value="LY" label="Libya">Libya</option>
+                        <option value="MG" label="Madagascar">Madagascar</option>
+                        <option value="MW" label="Malawi">Malawi</option>
+                        <option value="ML" label="Mali">Mali</option>
+                        <option value="MR" label="Mauritania">Mauritania</option>
+                        <option value="MU" label="Mauritius">Mauritius</option>
+                        <option value="YT" label="Mayotte">Mayotte</option>
+                        <option value="MA" label="Morocco">Morocco</option>
+                        <option value="MZ" label="Mozambique">Mozambique</option>
+                        <option value="NA" label="Namibia">Namibia</option>
+                        <option value="NE" label="Niger">Niger</option>
+                        <option value="NG" label="Nigeria">Nigeria</option>
+                        <option value="RW" label="Rwanda">Rwanda</option>
+                        <option value="RE" label="Réunion">Réunion</option>
+                        <option value="SH" label="Saint Helena">Saint Helena</option>
+                        <option value="SN" label="Senegal">Senegal</option>
+                        <option value="SC" label="Seychelles">Seychelles</option>
+                        <option value="SL" label="Sierra Leone">Sierra Leone</option>
+                        <option value="SO" label="Somalia">Somalia</option>
+                        <option value="ZA" label="South Africa">South Africa</option>
+                        <option value="SD" label="Sudan">Sudan</option>
+                        <option value="SZ" label="Swaziland">Swaziland</option>
+                        <option value="ST" label="São Tomé and Príncipe">São Tomé and Príncipe</option>
+                        <option value="TZ" label="Tanzania">Tanzania</option>
+                        <option value="TG" label="Togo">Togo</option>
+                        <option value="TN" label="Tunisia">Tunisia</option>
+                        <option value="UG" label="Uganda">Uganda</option>
+                        <option value="EH" label="Western Sahara">Western Sahara</option>
+                        <option value="ZM" label="Zambia">Zambia</option>
+                        <option value="ZW" label="Zimbabwe">Zimbabwe</option>
+                    </optgroup>
+                    <optgroup id="country-optgroup-Americas" label="Americas">
+                        <option value="AI" label="Anguilla">Anguilla</option>
+                        <option value="AG" label="Antigua and Barbuda">Antigua and Barbuda</option>
+                        <option value="AR" label="Argentina">Argentina</option>
+                        <option value="AW" label="Aruba">Aruba</option>
+                        <option value="BS" label="Bahamas">Bahamas</option>
+                        <option value="BB" label="Barbados">Barbados</option>
+                        <option value="BZ" label="Belize">Belize</option>
+                        <option value="BM" label="Bermuda">Bermuda</option>
+                        <option value="BO" label="Bolivia">Bolivia</option>
+                        <option value="BR" label="Brazil">Brazil</option>
+                        <option value="VG" label="British Virgin Islands">British Virgin Islands</option>
+                        <option value="CA" label="Canada">Canada</option>
+                        <option value="KY" label="Cayman Islands">Cayman Islands</option>
+                        <option value="CL" label="Chile">Chile</option>
+                        <option value="CO" label="Colombia">Colombia</option>
+                        <option value="CR" label="Costa Rica">Costa Rica</option>
+                        <option value="CU" label="Cuba">Cuba</option>
+                        <option value="DM" label="Dominica">Dominica</option>
+                        <option value="DO" label="Dominican Republic">Dominican Republic</option>
+                        <option value="EC" label="Ecuador">Ecuador</option>
+                        <option value="SV" label="El Salvador">El Salvador</option>
+                        <option value="FK" label="Falkland Islands">Falkland Islands</option>
+                        <option value="GF" label="French Guiana">French Guiana</option>
+                        <option value="GL" label="Greenland">Greenland</option>
+                        <option value="GD" label="Grenada">Grenada</option>
+                        <option value="GP" label="Guadeloupe">Guadeloupe</option>
+                        <option value="GT" label="Guatemala">Guatemala</option>
+                        <option value="GY" label="Guyana">Guyana</option>
+                        <option value="HT" label="Haiti">Haiti</option>
+                        <option value="HN" label="Honduras">Honduras</option>
+                        <option value="JM" label="Jamaica">Jamaica</option>
+                        <option value="MQ" label="Martinique">Martinique</option>
+                        <option value="MX" label="Mexico">Mexico</option>
+                        <option value="MS" label="Montserrat">Montserrat</option>
+                        <option value="AN" label="Netherlands Antilles">Netherlands Antilles</option>
+                        <option value="NI" label="Nicaragua">Nicaragua</option>
+                        <option value="PA" label="Panama">Panama</option>
+                        <option value="PY" label="Paraguay">Paraguay</option>
+                        <option value="PE" label="Peru">Peru</option>
+                        <option value="PR" label="Puerto Rico">Puerto Rico</option>
+                        <option value="BL" label="Saint Barthélemy">Saint Barthélemy</option>
+                        <option value="KN" label="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                        <option value="LC" label="Saint Lucia">Saint Lucia</option>
+                        <option value="MF" label="Saint Martin">Saint Martin</option>
+                        <option value="PM" label="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+                        <option value="VC" label="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option>
+                        <option value="SR" label="Suriname">Suriname</option>
+                        <option value="TT" label="Trinidad and Tobago">Trinidad and Tobago</option>
+                        <option value="TC" label="Turks and Caicos Islands">Turks and Caicos Islands</option>
+                        <option value="VI" label="U.S. Virgin Islands">U.S. Virgin Islands</option>
+                        <option value="US" label="United States">United States</option>
+                        <option value="UY" label="Uruguay">Uruguay</option>
+                        <option value="VE" label="Venezuela">Venezuela</option>
+                    </optgroup>
+                    <optgroup id="country-optgroup-Asia" label="Asia">
+                        <option value="AF" label="Afghanistan">Afghanistan</option>
+                        <option value="AM" label="Armenia">Armenia</option>
+                        <option value="AZ" label="Azerbaijan">Azerbaijan</option>
+                        <option value="BH" label="Bahrain">Bahrain</option>
+                        <option value="BD" label="Bangladesh">Bangladesh</option>
+                        <option value="BT" label="Bhutan">Bhutan</option>
+                        <option value="BN" label="Brunei">Brunei</option>
+                        <option value="KH" label="Cambodia">Cambodia</option>
+                        <option value="CN" label="China">China</option>
+                        <option value="GE" label="Georgia">Georgia</option>
+                        <option value="HK" label="Hong Kong SAR China">Hong Kong SAR China</option>
+                        <option value="IN" label="India">India</option>
+                        <option value="ID" label="Indonesia">Indonesia</option>
+                        <option value="IR" label="Iran">Iran</option>
+                        <option value="IQ" label="Iraq">Iraq</option>
+                        <option value="IL" label="Israel">Israel</option>
+                        <option value="JP" label="Japan">Japan</option>
+                        <option value="JO" label="Jordan">Jordan</option>
+                        <option value="KZ" label="Kazakhstan">Kazakhstan</option>
+                        <option value="KW" label="Kuwait">Kuwait</option>
+                        <option value="KG" label="Kyrgyzstan">Kyrgyzstan</option>
+                        <option value="LA" label="Laos">Laos</option>
+                        <option value="LB" label="Lebanon">Lebanon</option>
+                        <option value="MO" label="Macau SAR China">Macau SAR China</option>
+                        <option value="MY" label="Malaysia">Malaysia</option>
+                        <option value="MV" label="Maldives">Maldives</option>
+                        <option value="MN" label="Mongolia">Mongolia</option>
+                        <option value="MM" label="Myanmar [Burma]">Myanmar [Burma]</option>
+                        <option value="NP" label="Nepal">Nepal</option>
+                        <option value="NT" label="Neutral Zone">Neutral Zone</option>
+                        <option value="KP" label="North Korea">North Korea</option>
+                        <option value="OM" label="Oman">Oman</option>
+                        <option value="PK" label="Pakistan">Pakistan</option>
+                        <option value="PS" label="Palestinian Territories">Palestinian Territories</option>
+                        <option value="YD" label="People's Democratic Republic of Yemen">People's Democratic Republic of Yemen</option>
+                        <option value="PH" label="Philippines">Philippines</option>
+                        <option value="QA" label="Qatar">Qatar</option>
+                        <option value="SA" label="Saudi Arabia">Saudi Arabia</option>
+                        <option value="SG" label="Singapore">Singapore</option>
+                        <option value="KR" label="South Korea">South Korea</option>
+                        <option value="LK" label="Sri Lanka">Sri Lanka</option>
+                        <option value="SY" label="Syria">Syria</option>
+                        <option value="TW" label="Taiwan">Taiwan</option>
+                        <option value="TJ" label="Tajikistan">Tajikistan</option>
+                        <option value="TH" label="Thailand">Thailand</option>
+                        <option value="TL" label="Timor-Leste">Timor-Leste</option>
+                        <option value="TR" label="Turkey">Turkey</option>
+                        <option value="TM" label="Turkmenistan">Turkmenistan</option>
+                        <option value="AE" label="United Arab Emirates">United Arab Emirates</option>
+                        <option value="UZ" label="Uzbekistan">Uzbekistan</option>
+                        <option value="VN" label="Vietnam">Vietnam</option>
+                        <option value="YE" label="Yemen">Yemen</option>
+                    </optgroup>
+                    <optgroup id="country-optgroup-Europe" label="Europe">
+                        <option value="AL" label="Albania">Albania</option>
+                        <option value="AD" label="Andorra">Andorra</option>
+                        <option value="AT" label="Austria">Austria</option>
+                        <option value="BY" label="Belarus">Belarus</option>
+                        <option value="BE" label="Belgium">Belgium</option>
+                        <option value="BA" label="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                        <option value="BG" label="Bulgaria">Bulgaria</option>
+                        <option value="HR" label="Croatia">Croatia</option>
+                        <option value="CY" label="Cyprus">Cyprus</option>
+                        <option value="CZ" label="Czech Republic">Czech Republic</option>
+                        <option value="DK" label="Denmark">Denmark</option>
+                        <option value="DD" label="East Germany">East Germany</option>
+                        <option value="EE" label="Estonia">Estonia</option>
+                        <option value="FO" label="Faroe Islands">Faroe Islands</option>
+                        <option value="FI" label="Finland">Finland</option>
+                        <option value="FR" label="France">France</option>
+                        <option value="DE" label="Germany">Germany</option>
+                        <option value="GI" label="Gibraltar">Gibraltar</option>
+                        <option value="GR" label="Greece">Greece</option>
+                        <option value="GG" label="Guernsey">Guernsey</option>
+                        <option value="HU" label="Hungary">Hungary</option>
+                        <option value="IS" label="Iceland">Iceland</option>
+                        <option value="IE" label="Ireland">Ireland</option>
+                        <option value="IM" label="Isle of Man">Isle of Man</option>
+                        <option value="IT" label="Italy">Italy</option>
+                        <option value="JE" label="Jersey">Jersey</option>
+                        <option value="LV" label="Latvia">Latvia</option>
+                        <option value="LI" label="Liechtenstein">Liechtenstein</option>
+                        <option value="LT" label="Lithuania">Lithuania</option>
+                        <option value="LU" label="Luxembourg">Luxembourg</option>
+                        <option value="MK" label="Macedonia">Macedonia</option>
+                        <option value="MT" label="Malta">Malta</option>
+                        <option value="FX" label="Metropolitan France">Metropolitan France</option>
+                        <option value="MD" label="Moldova">Moldova</option>
+                        <option value="MC" label="Monaco">Monaco</option>
+                        <option value="ME" label="Montenegro">Montenegro</option>
+                        <option value="NL" label="Netherlands">Netherlands</option>
+                        <option value="NO" label="Norway">Norway</option>
+                        <option value="PL" label="Poland">Poland</option>
+                        <option value="PT" label="Portugal">Portugal</option>
+                        <option value="RO" label="Romania">Romania</option>
+                        <option value="RU" label="Russia">Russia</option>
+                        <option value="SM" label="San Marino">San Marino</option>
+                        <option value="RS" label="Serbia">Serbia</option>
+                        <option value="CS" label="Serbia and Montenegro">Serbia and Montenegro</option>
+                        <option value="SK" label="Slovakia">Slovakia</option>
+                        <option value="SI" label="Slovenia">Slovenia</option>
+                        <option value="ES" label="Spain">Spain</option>
+                        <option value="SJ" label="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+                        <option value="SE" label="Sweden">Sweden</option>
+                        <option value="CH" label="Switzerland">Switzerland</option>
+                        <option value="UA" label="Ukraine">Ukraine</option>
+                        <option value="SU" label="Union of Soviet Socialist Republics">Union of Soviet Socialist Republics</option>
+                        <option value="GB" label="United Kingdom">United Kingdom</option>
+                        <option value="VA" label="Vatican City">Vatican City</option>
+                        <option value="AX" label="Åland Islands">Åland Islands</option>
+                    </optgroup>
+                    <optgroup id="country-optgroup-Oceania" label="Oceania">
+                        <option value="AS" label="American Samoa">American Samoa</option>
+                        <option value="AQ" label="Antarctica">Antarctica</option>
+                        <option value="AU" label="Australia">Australia</option>
+                        <option value="BV" label="Bouvet Island">Bouvet Island</option>
+                        <option value="IO" label="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                        <option value="CX" label="Christmas Island">Christmas Island</option>
+                        <option value="CC" label="Cocos [Keeling] Islands">Cocos [Keeling] Islands</option>
+                        <option value="CK" label="Cook Islands">Cook Islands</option>
+                        <option value="FJ" label="Fiji">Fiji</option>
+                        <option value="PF" label="French Polynesia">French Polynesia</option>
+                        <option value="TF" label="French Southern Territories">French Southern Territories</option>
+                        <option value="GU" label="Guam">Guam</option>
+                        <option value="HM" label="Heard Island and McDonald Islands">Heard Island and McDonald Islands</option>
+                        <option value="KI" label="Kiribati">Kiribati</option>
+                        <option value="MH" label="Marshall Islands">Marshall Islands</option>
+                        <option value="FM" label="Micronesia">Micronesia</option>
+                        <option value="NR" label="Nauru">Nauru</option>
+                        <option value="NC" label="New Caledonia">New Caledonia</option>
+                        <option value="NZ" label="New Zealand">New Zealand</option>
+                        <option value="NU" label="Niue">Niue</option>
+                        <option value="NF" label="Norfolk Island">Norfolk Island</option>
+                        <option value="MP" label="Northern Mariana Islands">Northern Mariana Islands</option>
+                        <option value="PW" label="Palau">Palau</option>
+                        <option value="PG" label="Papua New Guinea">Papua New Guinea</option>
+                        <option value="PN" label="Pitcairn Islands">Pitcairn Islands</option>
+                        <option value="WS" label="Samoa">Samoa</option>
+                        <option value="SB" label="Solomon Islands">Solomon Islands</option>
+                        <option value="GS" label="South Georgia and the South Sandwich Islands">South Georgia and the South Sandwich Islands</option>
+                        <option value="TK" label="Tokelau">Tokelau</option>
+                        <option value="TO" label="Tonga">Tonga</option>
+                        <option value="TV" label="Tuvalu">Tuvalu</option>
+                        <option value="UM" label="U.S. Minor Outlying Islands">U.S. Minor Outlying Islands</option>
+                        <option value="VU" label="Vanuatu">Vanuatu</option>
+                        <option value="WF" label="Wallis and Futuna">Wallis and Futuna</option>
+                    </optgroup>
+                </select>
+            </h3>
+        </div>
+
+        <div classe="blue">
+            <img src="https://www.docplanner.com/icons/icon-doctors.svg">
+            <width="16" height="16" alt>
+            <h1>
+                For doctors
+            </h1>
+            <h2>
+                Save time managing visits and cut no-shows by half
+            </h2>
+            <h3>
+                <select name="country" class="form-control" id="country">
+                    <option value="0" label="Select a country ... " selected="selected">Select a country ... </option>
+                    <optgroup id="country-optgroup-Africa" label="Africa">
+                        <option value="DZ" label="Algeria">Algeria</option>
+                        <option value="AO" label="Angola">Angola</option>
+                        <option value="BJ" label="Benin">Benin</option>
+                        <option value="BW" label="Botswana">Botswana</option>
+                        <option value="BF" label="Burkina Faso">Burkina Faso</option>
+                        <option value="BI" label="Burundi">Burundi</option>
+                        <option value="CM" label="Cameroon">Cameroon</option>
+                        <option value="CV" label="Cape Verde">Cape Verde</option>
+                        <option value="CF" label="Central African Republic">Central African Republic</option>
+                        <option value="TD" label="Chad">Chad</option>
+                        <option value="KM" label="Comoros">Comoros</option>
+                        <option value="CG" label="Congo - Brazzaville">Congo - Brazzaville</option>
+                        <option value="CD" label="Congo - Kinshasa">Congo - Kinshasa</option>
+                        <option value="CI" label="Côte d’Ivoire">Côte d’Ivoire</option>
+                        <option value="DJ" label="Djibouti">Djibouti</option>
+                        <option value="EG" label="Egypt">Egypt</option>
+                        <option value="GQ" label="Equatorial Guinea">Equatorial Guinea</option>
+                        <option value="ER" label="Eritrea">Eritrea</option>
+                        <option value="ET" label="Ethiopia">Ethiopia</option>
+                        <option value="GA" label="Gabon">Gabon</option>
+                        <option value="GM" label="Gambia">Gambia</option>
+                        <option value="GH" label="Ghana">Ghana</option>
+                        <option value="GN" label="Guinea">Guinea</option>
+                        <option value="GW" label="Guinea-Bissau">Guinea-Bissau</option>
+                        <option value="KE" label="Kenya">Kenya</option>
+                        <option value="LS" label="Lesotho">Lesotho</option>
+                        <option value="LR" label="Liberia">Liberia</option>
+                        <option value="LY" label="Libya">Libya</option>
+                        <option value="MG" label="Madagascar">Madagascar</option>
+                        <option value="MW" label="Malawi">Malawi</option>
+                        <option value="ML" label="Mali">Mali</option>
+                        <option value="MR" label="Mauritania">Mauritania</option>
+                        <option value="MU" label="Mauritius">Mauritius</option>
+                        <option value="YT" label="Mayotte">Mayotte</option>
+                        <option value="MA" label="Morocco">Morocco</option>
+                        <option value="MZ" label="Mozambique">Mozambique</option>
+                        <option value="NA" label="Namibia">Namibia</option>
+                        <option value="NE" label="Niger">Niger</option>
+                        <option value="NG" label="Nigeria">Nigeria</option>
+                        <option value="RW" label="Rwanda">Rwanda</option>
+                        <option value="RE" label="Réunion">Réunion</option>
+                        <option value="SH" label="Saint Helena">Saint Helena</option>
+                        <option value="SN" label="Senegal">Senegal</option>
+                        <option value="SC" label="Seychelles">Seychelles</option>
+                        <option value="SL" label="Sierra Leone">Sierra Leone</option>
+                        <option value="SO" label="Somalia">Somalia</option>
+                        <option value="ZA" label="South Africa">South Africa</option>
+                        <option value="SD" label="Sudan">Sudan</option>
+                        <option value="SZ" label="Swaziland">Swaziland</option>
+                        <option value="ST" label="São Tomé and Príncipe">São Tomé and Príncipe</option>
+                        <option value="TZ" label="Tanzania">Tanzania</option>
+                        <option value="TG" label="Togo">Togo</option>
+                        <option value="TN" label="Tunisia">Tunisia</option>
+                        <option value="UG" label="Uganda">Uganda</option>
+                        <option value="EH" label="Western Sahara">Western Sahara</option>
+                        <option value="ZM" label="Zambia">Zambia</option>
+                        <option value="ZW" label="Zimbabwe">Zimbabwe</option>
+                    </optgroup>
+                    <optgroup id="country-optgroup-Americas" label="Americas">
+                        <option value="AI" label="Anguilla">Anguilla</option>
+                        <option value="AG" label="Antigua and Barbuda">Antigua and Barbuda</option>
+                        <option value="AR" label="Argentina">Argentina</option>
+                        <option value="AW" label="Aruba">Aruba</option>
+                        <option value="BS" label="Bahamas">Bahamas</option>
+                        <option value="BB" label="Barbados">Barbados</option>
+                        <option value="BZ" label="Belize">Belize</option>
+                        <option value="BM" label="Bermuda">Bermuda</option>
+                        <option value="BO" label="Bolivia">Bolivia</option>
+                        <option value="BR" label="Brazil">Brazil</option>
+                        <option value="VG" label="British Virgin Islands">British Virgin Islands</option>
+                        <option value="CA" label="Canada">Canada</option>
+                        <option value="KY" label="Cayman Islands">Cayman Islands</option>
+                        <option value="CL" label="Chile">Chile</option>
+                        <option value="CO" label="Colombia">Colombia</option>
+                        <option value="CR" label="Costa Rica">Costa Rica</option>
+                        <option value="CU" label="Cuba">Cuba</option>
+                        <option value="DM" label="Dominica">Dominica</option>
+                        <option value="DO" label="Dominican Republic">Dominican Republic</option>
+                        <option value="EC" label="Ecuador">Ecuador</option>
+                        <option value="SV" label="El Salvador">El Salvador</option>
+                        <option value="FK" label="Falkland Islands">Falkland Islands</option>
+                        <option value="GF" label="French Guiana">French Guiana</option>
+                        <option value="GL" label="Greenland">Greenland</option>
+                        <option value="GD" label="Grenada">Grenada</option>
+                        <option value="GP" label="Guadeloupe">Guadeloupe</option>
+                        <option value="GT" label="Guatemala">Guatemala</option>
+                        <option value="GY" label="Guyana">Guyana</option>
+                        <option value="HT" label="Haiti">Haiti</option>
+                        <option value="HN" label="Honduras">Honduras</option>
+                        <option value="JM" label="Jamaica">Jamaica</option>
+                        <option value="MQ" label="Martinique">Martinique</option>
+                        <option value="MX" label="Mexico">Mexico</option>
+                        <option value="MS" label="Montserrat">Montserrat</option>
+                        <option value="AN" label="Netherlands Antilles">Netherlands Antilles</option>
+                        <option value="NI" label="Nicaragua">Nicaragua</option>
+                        <option value="PA" label="Panama">Panama</option>
+                        <option value="PY" label="Paraguay">Paraguay</option>
+                        <option value="PE" label="Peru">Peru</option>
+                        <option value="PR" label="Puerto Rico">Puerto Rico</option>
+                        <option value="BL" label="Saint Barthélemy">Saint Barthélemy</option>
+                        <option value="KN" label="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                        <option value="LC" label="Saint Lucia">Saint Lucia</option>
+                        <option value="MF" label="Saint Martin">Saint Martin</option>
+                        <option value="PM" label="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+                        <option value="VC" label="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option>
+                        <option value="SR" label="Suriname">Suriname</option>
+                        <option value="TT" label="Trinidad and Tobago">Trinidad and Tobago</option>
+                        <option value="TC" label="Turks and Caicos Islands">Turks and Caicos Islands</option>
+                        <option value="VI" label="U.S. Virgin Islands">U.S. Virgin Islands</option>
+                        <option value="US" label="United States">United States</option>
+                        <option value="UY" label="Uruguay">Uruguay</option>
+                        <option value="VE" label="Venezuela">Venezuela</option>
+                    </optgroup>
+                    <optgroup id="country-optgroup-Asia" label="Asia">
+                        <option value="AF" label="Afghanistan">Afghanistan</option>
+                        <option value="AM" label="Armenia">Armenia</option>
+                        <option value="AZ" label="Azerbaijan">Azerbaijan</option>
+                        <option value="BH" label="Bahrain">Bahrain</option>
+                        <option value="BD" label="Bangladesh">Bangladesh</option>
+                        <option value="BT" label="Bhutan">Bhutan</option>
+                        <option value="BN" label="Brunei">Brunei</option>
+                        <option value="KH" label="Cambodia">Cambodia</option>
+                        <option value="CN" label="China">China</option>
+                        <option value="GE" label="Georgia">Georgia</option>
+                        <option value="HK" label="Hong Kong SAR China">Hong Kong SAR China</option>
+                        <option value="IN" label="India">India</option>
+                        <option value="ID" label="Indonesia">Indonesia</option>
+                        <option value="IR" label="Iran">Iran</option>
+                        <option value="IQ" label="Iraq">Iraq</option>
+                        <option value="IL" label="Israel">Israel</option>
+                        <option value="JP" label="Japan">Japan</option>
+                        <option value="JO" label="Jordan">Jordan</option>
+                        <option value="KZ" label="Kazakhstan">Kazakhstan</option>
+                        <option value="KW" label="Kuwait">Kuwait</option>
+                        <option value="KG" label="Kyrgyzstan">Kyrgyzstan</option>
+                        <option value="LA" label="Laos">Laos</option>
+                        <option value="LB" label="Lebanon">Lebanon</option>
+                        <option value="MO" label="Macau SAR China">Macau SAR China</option>
+                        <option value="MY" label="Malaysia">Malaysia</option>
+                        <option value="MV" label="Maldives">Maldives</option>
+                        <option value="MN" label="Mongolia">Mongolia</option>
+                        <option value="MM" label="Myanmar [Burma]">Myanmar [Burma]</option>
+                        <option value="NP" label="Nepal">Nepal</option>
+                        <option value="NT" label="Neutral Zone">Neutral Zone</option>
+                        <option value="KP" label="North Korea">North Korea</option>
+                        <option value="OM" label="Oman">Oman</option>
+                        <option value="PK" label="Pakistan">Pakistan</option>
+                        <option value="PS" label="Palestinian Territories">Palestinian Territories</option>
+                        <option value="YD" label="People's Democratic Republic of Yemen">People's Democratic Republic of Yemen</option>
+                        <option value="PH" label="Philippines">Philippines</option>
+                        <option value="QA" label="Qatar">Qatar</option>
+                        <option value="SA" label="Saudi Arabia">Saudi Arabia</option>
+                        <option value="SG" label="Singapore">Singapore</option>
+                        <option value="KR" label="South Korea">South Korea</option>
+                        <option value="LK" label="Sri Lanka">Sri Lanka</option>
+                        <option value="SY" label="Syria">Syria</option>
+                        <option value="TW" label="Taiwan">Taiwan</option>
+                        <option value="TJ" label="Tajikistan">Tajikistan</option>
+                        <option value="TH" label="Thailand">Thailand</option>
+                        <option value="TL" label="Timor-Leste">Timor-Leste</option>
+                        <option value="TR" label="Turkey">Turkey</option>
+                        <option value="TM" label="Turkmenistan">Turkmenistan</option>
+                        <option value="AE" label="United Arab Emirates">United Arab Emirates</option>
+                        <option value="UZ" label="Uzbekistan">Uzbekistan</option>
+                        <option value="VN" label="Vietnam">Vietnam</option>
+                        <option value="YE" label="Yemen">Yemen</option>
+                    </optgroup>
+                    <optgroup id="country-optgroup-Europe" label="Europe">
+                        <option value="AL" label="Albania">Albania</option>
+                        <option value="AD" label="Andorra">Andorra</option>
+                        <option value="AT" label="Austria">Austria</option>
+                        <option value="BY" label="Belarus">Belarus</option>
+                        <option value="BE" label="Belgium">Belgium</option>
+                        <option value="BA" label="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                        <option value="BG" label="Bulgaria">Bulgaria</option>
+                        <option value="HR" label="Croatia">Croatia</option>
+                        <option value="CY" label="Cyprus">Cyprus</option>
+                        <option value="CZ" label="Czech Republic">Czech Republic</option>
+                        <option value="DK" label="Denmark">Denmark</option>
+                        <option value="DD" label="East Germany">East Germany</option>
+                        <option value="EE" label="Estonia">Estonia</option>
+                        <option value="FO" label="Faroe Islands">Faroe Islands</option>
+                        <option value="FI" label="Finland">Finland</option>
+                        <option value="FR" label="France">France</option>
+                        <option value="DE" label="Germany">Germany</option>
+                        <option value="GI" label="Gibraltar">Gibraltar</option>
+                        <option value="GR" label="Greece">Greece</option>
+                        <option value="GG" label="Guernsey">Guernsey</option>
+                        <option value="HU" label="Hungary">Hungary</option>
+                        <option value="IS" label="Iceland">Iceland</option>
+                        <option value="IE" label="Ireland">Ireland</option>
+                        <option value="IM" label="Isle of Man">Isle of Man</option>
+                        <option value="IT" label="Italy">Italy</option>
+                        <option value="JE" label="Jersey">Jersey</option>
+                        <option value="LV" label="Latvia">Latvia</option>
+                        <option value="LI" label="Liechtenstein">Liechtenstein</option>
+                        <option value="LT" label="Lithuania">Lithuania</option>
+                        <option value="LU" label="Luxembourg">Luxembourg</option>
+                        <option value="MK" label="Macedonia">Macedonia</option>
+                        <option value="MT" label="Malta">Malta</option>
+                        <option value="FX" label="Metropolitan France">Metropolitan France</option>
+                        <option value="MD" label="Moldova">Moldova</option>
+                        <option value="MC" label="Monaco">Monaco</option>
+                        <option value="ME" label="Montenegro">Montenegro</option>
+                        <option value="NL" label="Netherlands">Netherlands</option>
+                        <option value="NO" label="Norway">Norway</option>
+                        <option value="PL" label="Poland">Poland</option>
+                        <option value="PT" label="Portugal">Portugal</option>
+                        <option value="RO" label="Romania">Romania</option>
+                        <option value="RU" label="Russia">Russia</option>
+                        <option value="SM" label="San Marino">San Marino</option>
+                        <option value="RS" label="Serbia">Serbia</option>
+                        <option value="CS" label="Serbia and Montenegro">Serbia and Montenegro</option>
+                        <option value="SK" label="Slovakia">Slovakia</option>
+                        <option value="SI" label="Slovenia">Slovenia</option>
+                        <option value="ES" label="Spain">Spain</option>
+                        <option value="SJ" label="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+                        <option value="SE" label="Sweden">Sweden</option>
+                        <option value="CH" label="Switzerland">Switzerland</option>
+                        <option value="UA" label="Ukraine">Ukraine</option>
+                        <option value="SU" label="Union of Soviet Socialist Republics">Union of Soviet Socialist Republics</option>
+                        <option value="GB" label="United Kingdom">United Kingdom</option>
+                        <option value="VA" label="Vatican City">Vatican City</option>
+                        <option value="AX" label="Åland Islands">Åland Islands</option>
+                    </optgroup>
+                    <optgroup id="country-optgroup-Oceania" label="Oceania">
+                        <option value="AS" label="American Samoa">American Samoa</option>
+                        <option value="AQ" label="Antarctica">Antarctica</option>
+                        <option value="AU" label="Australia">Australia</option>
+                        <option value="BV" label="Bouvet Island">Bouvet Island</option>
+                        <option value="IO" label="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                        <option value="CX" label="Christmas Island">Christmas Island</option>
+                        <option value="CC" label="Cocos [Keeling] Islands">Cocos [Keeling] Islands</option>
+                        <option value="CK" label="Cook Islands">Cook Islands</option>
+                        <option value="FJ" label="Fiji">Fiji</option>
+                        <option value="PF" label="French Polynesia">French Polynesia</option>
+                        <option value="TF" label="French Southern Territories">French Southern Territories</option>
+                        <option value="GU" label="Guam">Guam</option>
+                        <option value="HM" label="Heard Island and McDonald Islands">Heard Island and McDonald Islands</option>
+                        <option value="KI" label="Kiribati">Kiribati</option>
+                        <option value="MH" label="Marshall Islands">Marshall Islands</option>
+                        <option value="FM" label="Micronesia">Micronesia</option>
+                        <option value="NR" label="Nauru">Nauru</option>
+                        <option value="NC" label="New Caledonia">New Caledonia</option>
+                        <option value="NZ" label="New Zealand">New Zealand</option>
+                        <option value="NU" label="Niue">Niue</option>
+                        <option value="NF" label="Norfolk Island">Norfolk Island</option>
+                        <option value="MP" label="Northern Mariana Islands">Northern Mariana Islands</option>
+                        <option value="PW" label="Palau">Palau</option>
+                        <option value="PG" label="Papua New Guinea">Papua New Guinea</option>
+                        <option value="PN" label="Pitcairn Islands">Pitcairn Islands</option>
+                        <option value="WS" label="Samoa">Samoa</option>
+                        <option value="SB" label="Solomon Islands">Solomon Islands</option>
+                        <option value="GS" label="South Georgia and the South Sandwich Islands">South Georgia and the South Sandwich Islands</option>
+                        <option value="TK" label="Tokelau">Tokelau</option>
+                        <option value="TO" label="Tonga">Tonga</option>
+                        <option value="TV" label="Tuvalu">Tuvalu</option>
+                        <option value="UM" label="U.S. Minor Outlying Islands">U.S. Minor Outlying Islands</option>
+                        <option value="VU" label="Vanuatu">Vanuatu</option>
+                        <option value="WF" label="Wallis and Futuna">Wallis and Futuna</option>
+                    </optgroup>
+                </select>
+            </h3>
+        </div>
+        <div class="solid">
+            <img src="https://www.docplanner.com/icons/icon-clinics.svg">
+            <width="16" height="16" alt>
+            <h1>
+                For clinics
+            </h1>
+            <h2>
+                Deliver an exceptional patient experience in your clinic
+            </h2>
+            <h3>
+                <a href="#"> select a country </a>
+            </h3>
+        </div>
+        </section>
+        <br/br>
+        <section id="ted" >
+            <div>
+                <h2>
+                We are a global company 
+                    <br/br>
+                with local culture
+                </h2>   
+            </div>  
+            <div class="brands-logo">
+
+                    <a href="#"><img src="https://prowly-uploads.s3.eu-west-1.amazonaws.com/uploads/press_rooms/company_logos/263/logo-ZnanyLekarz.jpg" alt="image" width="100px">
+                    <a href="#"><img src="data:image/png;base64,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"alt="image" width="100px">
+                    <a href="#"><img src="https://www.miodottore.it/img/it/logo/logo-default-it.svg?v=4"alt="image" width="100px">
+                    <a href="#"><img src="https://www.doktortakvimi.com/img/tr/logo/logo-default-tr.svg?v4"alt="image" width="100px">
+                    <a href="#"><img src="https://www.znamylekar.cz/img/cz/logo/logo-default-cz.svg?v=4"alt="image" width="100px">
+                    <a href="#"><img src="https://www.docplanner.com/logos/logo-tuotempo.svg"alt="image" width="100px">
+                    <a href="#"><img src="https://www.docplanner.com/logos/logo-gipo.svg"alt="image" width="60px">
+                    <a href="#"><img src="https://www.docplanner.com/logos/logo-clinicloud.svg"alt="image" width="60px">
+                    <a href="#"><img src="https://www.docplanner.com/logos/logo-jameda.svg"alt="image" width="60px">
+                    </a>           
+                </div>
+        </section>    
+    </body>
+    <section class="lockdown">
+        <div class="grid-container">
+           <div class="grid-item" id="vert">
+              The world's biggest
+               <br/br>
+              healthcare platform
+     <p id="gris">We work from 9 offices all over the world, bringing Docplanner Group to life in 13 countries.</p>
+           </div>
+           <div class="grid-item" id="carre">
+              <img src="https://www.docplanner.com/img/flag@2x.png" alt="drapeau"
+                       width="35px">
+              <h1 id="vert">Leader in 13 countries</h1>
+              <p id="gris">Poland, Brazil, Mexico, Spain, Italy, Germany, Turkey, Colombia, Czech Republic, Portugal, Argentina, Peru and Chile</p>
+           </div>
+           <div class="grid-item" id="carre">
+              <img src="https://www.docplanner.com/img/visits@2x.png" alt="calendrier"
+              width="35px">
+     <h1 id="vert">13,000,000 appointments</h1>
+     <p id="gris">booked last month</p>
+     </div>
+           <div class="grid-item"></div>
+           <div class="grid-item" id="carre">
+              <img src="https://www.docplanner.com/img/patients@2x.png" alt="rass"
+              width="35px">
+     <h1 id="vert">85,000,000
+        patients</h1>
+     <p id="gris">visit our websites each month</p>
+           </div>
+           <div class="grid-item" id="carre">
+              <img src="https://www.docplanner.com/img/doctors@2x.png" alt="a3bed"
+                       width="35px">
+              <h1 id="vert">190,000
+                 active doctors</h1>
+              <p id="gris">trust our solutions</p>
+           </div>
+        </div>
+     </section>
+     <section class="titre">
+        <h1 id="vert">Improve the lives of millions. Change yours forever.</h1>
+        <p>More than 2600 team mates share our same vision, goals and passion. 
+           With offices in Warsaw, Barcelona, Munich, Istanbul, Rome, Rio, Bologna, Mexico City and Curitiba, our search for great talent never stops.</p>
+     </section>
+     
+     <MAIN class="image">
+        <div id="insta">
+           <a href="#"></a>
+           <img src="https://www.docplanner.com/images/warsaw@2x.png" alt="warsaw" width="200px">
+           <br/br>
+           <h1>
+              warsaw
+              <button class="boutton"> see openings</button>
+           </h1>
+        </div>
+        <div id="insta">
+            <a href="#"></a>
+            <p><img src="https://www.docplanner.com/images/barcelona@2x.png" alt="barcelona" width="200px">
+            </p>
+            <h1>
+               barcelona
+               <button class="boutton"> see openings</button>
+            </h1>
+         </div>
+         <div id="insta">
+            <a href="#"></a>
+            <p><img src="https://www.docplanner.com/images/munich@2x.png" alt="munich" width="200px">
+            </p>
+            <h1>
+               munich
+               <button class="boutton"> see openings</button>
+            </h1>
+         </div>
+
+         <div id="insta">
+            <a href="#"></a>
+            <p><img src="https://www.docplanner.com/images/istanbul@2x.png" alt="istanbul" width="200px">
+            </p>
+            <h1>
+               istanbul
+               <button class="boutton"> see openings </button>
+            </h1>
+         </div>
+         <div id="insta">
+            <a href="#"></a>
+            <p><img src="https://www.docplanner.com/images/rome@2x.png" alt="rome" width="200px">
+            </p>
+            <h1>
+               rome
+               <button class="boutton"> see openings</button>
+            </h1>
+         </div>
+         <div id="insta">
+            <a href="#"></a>
+            <p><img src="https://www.docplanner.com/images/bologna@2x.png" alt="bologna" width="200px">
+            </p>
+            <h1>
+               bologna
+               <button class="boutton"> see openings</button>
+            </h1>
+         </div>
+         <div id="insta">
+            <a href="#"></a>
+            <p><img src="https://www.docplanner.com/images/curitiba@2x.png" alt="Curitiba" width="200px">
+            </p>
+            <h1>
+               Curitiba
+               <button class="boutton"> see openings</button>
+            </h1>
+         </div>
+         <div id="insta">
+            <a href="#"></a>
+            <p><img src="https://www.docplanner.com/images/mexico-city@2x.png" alt="mexico-city" width="200px"
+                >
+            </p>
+            <h1>
+               mexico-city
+               <button class="boutton"> see openings</button>
+            </h1>
+         </div>
+      </MAIN>
+        
+     <section class="fin">
+        <p>Sounds interesting? Join us now!</p>
+        <a href="#" class="boutton">See all current openings</a>
+     </section>
+     <footer class="footer">
+        <div>
+           <p>We are leaders in 13 countries: 
+              <a href="#">Poland</a>
+              <a href="#">Turkey</a>
+              <a href="#">Spain</a>
+              <a href="#">italy</a>
+              <a href="#">Czech</a>
+              <a href="#">Portugal</a>
+              <a href="#">Mexico</a>
+              <a href="#">Colombie</a>
+              <a href="#">Bresil</a>
+              <a href="#">Argentine</a>
+              <a href="#">Peru</a>
+            and <a href="#">Chili</a>
+ 
+           </p>
+           <p>This site uses cookies to deliver services in accordance with this Privacy Policy. You can specify the conditions for storing or accessing cookies on your browser.
+           </p>
+             www.docplanner.com © 2022
+        </div>
+     </footer>
+
+
+
+
+
+
+</html>
